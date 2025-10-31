@@ -1,1 +1,1 @@
-# Northcap_University
+# Northcap University
