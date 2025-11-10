@@ -9,23 +9,23 @@ int main(){
     scanf("%d",&number);
     temp = number;
     temp_second = number;
-    for (int i = 0; i <= temp; i++)
+    while(temp!=0)
     {
         armstrong = temp%10;
         temp= temp/10;
         count+=1;
     }
-    for (int i = 0; i <=temp_second; i++)
+    while(temp_second!=0)
     {
         temp2 = temp_second%10;
         final+=pow(temp2,count);
         temp_second=temp_second/10;
     }
     if(final==number){
-        printf("it is an armstrong.");
+        printf("It is an armstrong.");
     }
     else{
-        printf("it is not an armstrong.");
+        printf("It is not an armstrong.");
     }
     
     return 0;
